@@ -1,0 +1,4 @@
+image: gradle:8.1.1-jdk21
+tasks:
+  - name: Build mod
+    init: ./gradlew build
